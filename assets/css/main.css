@@ -3765,6 +3765,16 @@ input, select, textarea {
 		z-index: 2;
 	}
 
+	.skill-section{
+		float: left; 
+		width: 33.33%;
+		padding: 10px;
+	}
+
+	.skill-section ul {
+		padding-left: 0em;
+	}
+
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
 			border-top: solid 2px #eeeeee;
@@ -3806,7 +3816,9 @@ input, select, textarea {
 			}
 
 			@media screen and (max-width: 736px) {
-
+				.skill-section{
+					width: 100%;
+				}
 				#main > .post {
 					padding: 4rem 2rem 2rem 2rem ;
 				}
